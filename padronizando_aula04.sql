@@ -1,8 +1,3 @@
-/** 
-eliminando base de dados
-só executa se existir
-*/
-
 DROP DATABASE IF EXISTS aula_banco; 	-- eliminando aula_banco
 CREATE DATABASE aula_banco;				-- criando aula_banco
 USE aula_banco;							-- selecionando aula_banco
