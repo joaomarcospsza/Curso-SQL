@@ -144,10 +144,12 @@ A sintaxe e a forma correta de um comando.
 Já a semantica e o resultado desejado por aquele comando.
 
 08 - Em uma consulta com JOIN, há casos em que seja necessário atribuir o nome da tabela na projeção das colunas? Explique.
+sim, quando o nome das tabelas são iguais.
 
 
 09 - De acordo com o estudo de caso, cite 4 exemplos em que seja possível utilizar o JOIN e 3 exemplos que não seja possível realizar o JOIN.
-
+possivel: estado - cidade, cidade - fornecedor, compra - icompra, recebimento - icaixa.
+impossivel: estado - cliente, venda - compra, recebimento - pagamento.
 
 Conforme o estudo de caso, elabore as consultas solicitadas abaixo:
 obs: Para cada questão utilize o padrão SQL89 e SQL92
